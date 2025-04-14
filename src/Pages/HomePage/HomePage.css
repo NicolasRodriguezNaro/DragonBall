@@ -1,0 +1,15 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 20px;
+    justify-content: space-evenly;
+    background-color: rgb(44, 36, 36);
+}
+
+#pagination{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+}
