@@ -1,9 +1,68 @@
 footer{
-    background-color: #282c34;
+    height: 40vh;
+    background-color: #1b1a1a;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px;
     color: white;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    gap: 30px;
+    color: rgb(170, 170, 170);
+    margin-bottom: 20px;
+}
+#footerTitle{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+    color: rgb(225, 225, 225);
+}
+.logosFooter{
+    width: 8vw;
+    height: 13vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+#logoFooter{
+    background: transparent;
+    width: 5vw;
+    height: 10vh;
+    transition: width 0.5s ease, height 0.5s ease;
+}
+#logoFooter:hover{
+    width: 8vw;
+    height: 13vh;
+}
+#iconFooter:hover{
+   color:  #ff8c00;
+   width: 2.5vw;
+    height: 5vh;
+   transition: width 0.2s ease, height 0.2s ease;
+}
+#linkIcon{
+    color: #ffffff;
+}
+a{
+    text-decoration: none;
+}
+#linkAuthor{
+    display: flex;
+    flex-direction: column;
+    
+}
+#authors{
+    font-size: 16px;
+    color: white;
+    transition: font-size 0.3s ease, color 0.5s ease;  
+}
+#authors:hover{
+    font-size: 20px;
+    color: #ff8c00;  
 }

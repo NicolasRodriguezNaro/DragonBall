@@ -1,10 +1,10 @@
 main{
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 50px;
     padding: 40px 20px;
     justify-content: space-evenly;
-    background-color: rgb(44, 36, 36);
+    background: linear-gradient(180deg, #000000 40%, #050068 100%);
 }
 
 #pagination{

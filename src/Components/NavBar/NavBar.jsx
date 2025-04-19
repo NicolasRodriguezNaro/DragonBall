@@ -7,10 +7,10 @@ const NavBar = () => {
   return (
     <nav id='nav'>
         <ul>
-            <Link to={"/"} style={{ textDecoration: 'none' }}>Inicio</Link>
-            <Link to={"/filter/Male"} style={{ textDecoration: 'none' }}>Masculino</Link>
-            <Link to={"/filter/Female"} style={{ textDecoration: 'none' }}>Femenino</Link>
-            <Link to={"/about"} style={{ textDecoration: 'none' }}>Acerca de</Link>
+            <Link class ="navBar" to={"/"} style={{ textDecoration: 'none' }}>Inicio</Link>
+            <Link class ="navBar" to={"/filter/Male"} style={{ textDecoration: 'none' }}>Masculino</Link>
+            <Link class ="navBar" to={"/filter/Female"} style={{ textDecoration: 'none' }}>Femenino</Link>
+            <Link class ="navBar" to={"/about"} style={{ textDecoration: 'none' }}>Acerca de</Link>
         </ul>
     </nav>
   )

@@ -1,0 +1,39 @@
+#imageCard:hover{
+    transform: scale(1.2);
+    transition: transform 0.9s ease;
+}
+#cardEffect{
+    border: 2px solid #000;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+} 
+#cardEffect:hover{
+    box-shadow: 0 0 20px 4px rgb(255, 217, 0);
+    border: 2px solid #fff200;
+}
+#imageCard{
+    width: 320px;
+    height: 420px;
+    z-index: 2;
+    transform: translate(0%, -5%);
+    position: absolute;
+    object-fit: contain;
+    background: transparent;
+}
+
+.textCardGeneral{ 
+    position: relative;
+    z-index: 3;
+}
+#styleTitle{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+#textCard{
+    font-size: 14px;
+    
+}
+#contentCard{
+    background-color: rgb(253, 137, 5);
+}
