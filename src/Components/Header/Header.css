@@ -16,6 +16,7 @@ header{
 .effect{
     animation: flotar 1.5s linear infinite alternate;
 }
+
 @keyframes flotar{
     to {
         margin-top: 7vh;

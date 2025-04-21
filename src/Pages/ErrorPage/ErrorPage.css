@@ -1,9 +1,56 @@
-.error{
-    background-color: black;
-    color: white;
+.errorFound{
+    background-color: rgb(255, 136, 0);
     height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 5rem;
+}
+#bodyError{
+    display: flex;
+    flex-direction: row;
+    background-color: brown;
+    width: 90%;
+    height: 85%;
+    border-radius: 15px;
+    border: 3px solid black;
+    box-shadow: 0 4px 10px rgb(0, 0, 0); 
+}
+#imageError{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+    height: 90%;
+    background-color: rgb(255, 182, 92);
+    margin: 30px;
+    border: 3px solid black;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgb(0, 0, 0); 
+}
+#animationError{
+    width: 90%;
+    height: 90%;
+    border-radius: 15px;
+    border: 3px solid black;
+    margin: 20px;
+}
+#textWarning{
+    width: 60%;
+    height: 90%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 182, 92);
+    margin: 30px;
+    border: 3px solid black;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgb(0, 0, 0); 
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+#titleErrorPage{
+    font-size:50px;
+    margin: 30px;
+}
+#textErrorPage{
+    font-size: 30px;
+    margin: 30px;
 }

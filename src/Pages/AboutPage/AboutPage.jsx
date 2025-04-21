@@ -47,11 +47,11 @@ const AboutPage = () => {
             <img
               id="animationAbout1"
               src="https://media.tenor.com/flOZZayrrSYAAAAi/kakarot.gif"
-              alt=""
+              alt="gokuAnimation1"
             />
             <img id="animationAbout2"
-              src="https://s2.ezgif.com/tmp/ezgif-29ab1c8308d752.gif"
-              alt=""
+              src="https://i.imgur.com/4mcKOLg.gif"
+              alt="gokuAnimation2"
             />
           </div>
         </div>
