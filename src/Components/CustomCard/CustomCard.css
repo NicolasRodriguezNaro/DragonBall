@@ -37,6 +37,16 @@
 #contentCard{
     background-color: rgb(253, 137, 5);
 }
+#cardEffect:hover #contentCard{
+  background: linear-gradient(90deg, rgb(253, 137, 5), rgb(255, 204, 2));
+  background-size: 400% 400%;
+  animation: 3s gradient infinite;
+}
+@keyframes gradient{
+  0% {background-position: 0% 50% ;}
+  50% {background-position: 100% 50% ;}
+  100% {background-position: 0% 50% ;}
+} 
 
 @media (max-width: 480px) {
     #cardEffect {
