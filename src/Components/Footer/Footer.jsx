@@ -6,10 +6,10 @@ const Footer = () => {
   return (
     <footer>
       <h4 id="footerTitle">DragonBall Api</h4>
-      <ul>
-        <p class="textList">Characters:</p>
-        <p class="textList">Transformations:</p>
-        <p class="textList">Planets:</p>
+      <ul id="containerTextFooter">
+        <p class="textList">Characters:58</p>
+        <p class="textList">Transformations:49</p>
+        <p class="textList">Planets:20</p>
       </ul>
       <div class="logosFooter">
         <img

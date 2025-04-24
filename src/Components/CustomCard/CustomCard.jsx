@@ -6,7 +6,6 @@ import Typography from "@mui/material/Typography";
 import CardActionArea from "@mui/material/CardActionArea";
 import "./CustomCard.css";
 
-// "https://64.media.tumblr.com/d39042b83d10d69b01aceeb854e3cdcb/tumblr_p5k4cx8DQR1t0btdio5_1280.jpg"
 export default function CustomCard({ user }) {
   return (
     <Card id="cardEffect" sx={{ width: 300 }}>

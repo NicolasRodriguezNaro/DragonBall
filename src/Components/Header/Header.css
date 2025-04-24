@@ -11,7 +11,8 @@ header{
 
 #logoHeader{
     width: 35%;
-    height: 60%;
+    height: 70%;
+    margin: 10px;
 }
 .effect{
     animation: flotar 1.5s linear infinite alternate;
@@ -22,3 +23,39 @@ header{
         margin-top: 7vh;
     }
 }
+
+@media (min-width: 1440px){
+    #logoHeader{
+        width: 50%;
+        height: 80%;
+    } 
+}
+
+@media ((min-width: 1025px) and (max-width: 1440px)){
+    #logoHeader{
+        width: 60%;
+        height: 80%;
+    } 
+}
+
+@media (max-width: 1024px){
+    #logoHeader{
+        width: 80%;
+        height: 70%;
+    } 
+}
+
+@media (max-width: 768px){
+    #logoHeader{
+        width: 90%;
+        height: 60%;
+    } 
+}
+
+@media (max-width: 480px){
+    #logoHeader{
+        width: 90%;
+        height: 50%;
+    }
+}
+

@@ -55,11 +55,64 @@
 #animationAbout2{
     width: 16%;
     height: 10%;
-}
+} 
+
 
 #animationAbout1, #animationAboutPage:hover #animationAbout2{
     display: flex;
 }
 #animationAbout2, #animationAboutPage:hover #animationAbout1{
     display: none;
+}
+
+@media (max-width: 1024px){
+    #animationAbout1{
+        width: 20%;
+        height: 20%;
+    }
+    #animationAbout2{
+        width: 26%;
+        height: 26%;
+    }
+}
+
+@media (max-width: 768px){
+    #bodyAbout{
+        margin: 5px;
+        padding: 10px;
+    }
+    #backGroundAbout{
+        padding: 10px;
+    }
+    #titleAboutPage{
+        font-size:35px;
+        margin-bottom: 15px;
+    }
+    .subtitleAboutPage{
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+    .paragraph{
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    #animationAbout1{
+        width: 20%;
+        height: 20%;
+    }
+    #animationAbout2{
+        width: 26%;
+        height: 26%;
+    }
+}
+
+@media (max-width: 480px){
+    #animationAbout1{
+        width: 30%;
+        height: 30%;
+    }
+    #animationAbout2{
+        width: 36%;
+        height: 36%;
+    }
 }

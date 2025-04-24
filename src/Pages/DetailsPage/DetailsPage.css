@@ -1,77 +1,170 @@
-#card{
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    padding: 20px;
+#card {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 20px;
 }
-#foundDetailsPage{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(205, 79, 30);
-    gap: 10px;
+#foundDetailsPage {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(205, 79, 30);
+  gap: 10px;
 }
-#bodyEstructure{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 73vw;
-    height: 64vh;
-    margin: 20px;
-    border-radius: 15px;
-    background-color: rgb(255, 182, 92);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    border: 2px solid #000;
+#bodyEstructure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 73vw;
+  height: 64vh;
+  margin: 20px;
+  border-radius: 15px;
+  background-color: rgb(255, 182, 92);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  border: 2px solid #000;
 }
-#headDetails{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 95%;
-    height: 25%;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    background-color: rgb(231, 58, 42);
-    border-radius: 15px;
-    border: 2px solid #000;
-    gap: 100px;
+#headDetails {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  height: 25%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  background-color: rgb(231, 58, 42);
+  border-radius: 15px;
+  border: 2px solid #000;
 }
-#bodyDetails{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 95%;
-    height: 60%;
-    margin-bottom: 30px;
-    background-color: rgb(231, 58, 42);
-    border-radius: 15px;
-    border: 2px solid #000;
+#bodyDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+  height: 60%;
+  margin-bottom: 30px;
+  background-color: rgb(231, 58, 42);
+  border-radius: 15px;
+  border: 2px solid #000;
 }
 #bodyEstructure,
 #headDetails,
 #bodyDetails {
   transition: border 0.3s ease, box-shadow 0.3s ease;
 }
-#bodyEstructure:hover{
-    border: 2px solid #fff200;
-    box-shadow: 0 4px 10px rgb(255, 218, 6);
+#bodyEstructure:hover {
+  border: 2px solid #fff200;
+  box-shadow: 0 4px 10px rgb(255, 218, 6);
 }
 #bodyEstructure:hover #headDetails,
 #bodyEstructure:hover #bodyDetails {
   border: 2px solid #fff200;
 }
-#textDescription{
-    margin: 20px;
-    font-size: large;
-    text-align: justify;
-    font-family: 'Bangers';
+#textDescription {
+  margin: 20px;
+  font-size: large;
+  text-align: justify;
+  font-family: "Bangers";
 }
-.dataDetails{
-    color: white;
+.dataDetails {
+  color: white;
+  margin: 20px;
+  text-align: center;
+  font-size: x-large;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+@media ((min-width: 1025px) and (max-width: 1440px)) {
+  #bodyEstructure {
+    height: auto;
+  }
+  #headDetails {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height: 25%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+  }
+
+  .dataDetails {
+    font-size: small;
+    margin: 5px;
+  }
+
+  #bodyDetails {
+    height: 100%;
+  }
+  #textDescription {
+    font-size: large;
+  }
+}
+
+@media (max-width: 1024px) {
+  #bodyEstructure {
+    height: auto;
+  }
+  #headDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    gap: 0;
+  }
+
+  .dataDetails {
+    font-size: small;
+    margin: 5px;
+  }
+
+  #bodyDetails {
+    height: 100%;
+  }
+  #textDescription {
+    font-size: small;
+  }
+}
+
+@media (max-width: 768px) {
+  #foundDetailsPage {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    gap: 0;
+  }
+  #bodyEstructure {
+    display: flex;
+    flex-direction: column;
+    height: auto;
     margin: 20px;
+    padding: 10px;
+  }
+  #headDetails {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    gap: 0px;
+    margin-top: 5px;
+  }
+
+  .dataDetails {
     text-align: center;
-    font-size: x-large;
-    text-shadow: 1px 1px 2px rgb(0, 0, 0);
-} 
+    font-size: large;
+    margin: 10px;
+  }
+
+  #bodyDetails {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  #textDescription {
+    font-size: medium;
+  }
+}
